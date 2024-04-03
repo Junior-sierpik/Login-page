@@ -1,0 +1,134 @@
+body {
+  font-family: 'Work sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url(/background\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 950px;
+}
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #594d5b;
+  width: 500px;
+  height: 350px;
+  margin-top: 10%;
+  opacity: 0.7;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  justify-content: space-between;
+}
+button a {
+  text-decoration: none;
+}
+.signup-link {
+  color: #e0115f;
+  width: 250px;
+}
+.login-link {
+  color: rgb(208, 208, 223);
+  width: 250px;
+}
+.login-buttons {
+  display: flex;
+  width: 500px;
+  height: 50px;
+}
+.signup-button,
+.login-button {
+  border: none;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 27px;
+}
+
+.signup-button {
+  background-color: #4d444e;
+  text-decoration: none;
+}
+.login-button {
+  background-color: #e0115f;
+  box-shadow: inset 0px 0px 10px violet;
+}
+
+.title {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: rgb(229, 229, 238);
+}
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  margin-bottom: 50px;
+}
+input,
+.reg-button {
+  margin-inline: 10px;
+  background-color: #4d444e;
+  border: 2px solid rgb(229, 229, 238);
+  color: mintcream;
+  border-radius: 2px;
+  padding: 12px 14px;
+  font-size: 20px;
+  width: 180px;
+}
+input::placeholder{
+  color: rgb(229, 229, 238);
+}
+input:focus{
+  outline: none;
+}
+.email,
+.phone-number,
+.password {
+  width: 418px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.password-section {
+  position: relative;
+}
+.hide-show-button {
+  flex-wrap: wrap;
+  width: 74px;
+  position: absolute;
+  right: 15px;
+  top: 25%;
+  background-color: transparent;
+  color: #7f6983;
+  border: none;
+  cursor: pointer;
+}
+
+.lower-section {
+  display: flex;
+  width: 500px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.reg-button {
+  width: 450px;
+  cursor: pointer;
+  color: #e0115f;
+  border-color: #e0115f;
+  background-color: transparent;
+}
+.reg-button:active {
+  background-color: #e0115f;
+  color: #4d444e;
+}
